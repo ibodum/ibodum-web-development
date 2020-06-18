@@ -8,6 +8,9 @@ body{
 	border: 0;
 	color: #fff;
 }
+.navbar{
+	opacity: 0.7;
+}
 .nav-item{
 	width: 100%;
 	text-align: center;
