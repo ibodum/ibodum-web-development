@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body{
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+}
+.nav-item{
+	width: 100%;
+	text-align: center;
+}
+.birincidiv{
+	margin: auto;
+}
+.mylogo {
+ padding-top: 30px;
+ }
+ .our-services {
+ 	margin-top: 30px;
+ 	text-align: center;
+ }
+ .silver,.gold,.platinum {
+ 	text-align: center;
+ 	padding: 5px;
+ }
+ .borde{
+ 	border-top: 1px solid #444;
+ }
+ @media (max-width: 610px) {
+ 	a h1 {
+ 		font-size: 1em;
+ 	}
+ }
+ p{
+ 	text-align: center;
+ }
+ @media (max-width: 992px){
+ 	.qas1 {
+ 		width: 100%;
+ 	}
+ 	.mylogo {
+ 		width: 75px;
+ 		height: 75px;
+ 		margin-left: auto;
+ 	}
+ }
+
+ @media (min-width: 300px) and (max-width: 991px) {
+ 	.qas1 {
+ 		width: 100%;
+ 	}
+ }
+ .adas {
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+ul li{
+  list-style: none;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  margin: auto 10px;
+ 
+}
+
+ul li .icons{
+  font-size: 20px;
+  color: blue;
+
+}
+ul li .icons1 {
+  color: red;
+  font-size: 20px;
+}
+hr{
+	max-width: 1000px;
+}
+.bilgi{
+	background-color: rgba(42, 46, 43,0.3);
+}
+footer{
+	background-color: rgba(42, 46, 43,0.5);
+	height: 63px;
+}
