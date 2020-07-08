@@ -59,7 +59,9 @@ body{
  .adas {
   text-align: center;
 }
-
+ .borde{
+  height: auto;
+ }
 
 ul{
   display: flex;
